@@ -8,7 +8,7 @@ DevOps / SRE Engineer passionate about cloud infrastructure, automation, and rel
 AWS · Terraform · EC2 · VPC · ALB · Auto Scaling · S3 · IAM
 
 **Containers & Orchestration**
-Docker · Kubernetes · k3d · Helm · ArgoCD
+Docker · Kubernetes · k3s · k3d · Helm · ArgoCD
 
 **CI/CD & GitOps**
 GitHub Actions · GitOps · ArgoCD · Automated Testing
@@ -25,6 +25,13 @@ Apache Airflow · PostgreSQL · ETL Pipelines
 ---
 
 ## 🚀 Portfolio Projects
+
+### [Gitea Production Deployment](https://github.com/IvanLuketic2002/gitea-production)
+Self-hosted Git server deployed on Kubernetes (k3s) on AWS EC2. GitHub Actions automatically deploys the entire stack on every push.
+**Stack:** Gitea · Kubernetes · k3s · PostgreSQL · Prometheus · GitHub Actions · AWS EC2
+🌐 **Live:** http://3.123.2.206:30000
+
+---
 
 ### [Observability & Incident Response System](https://github.com/IvanLuketic2002/monitoring-stack)
 Production-grade monitoring stack with Prometheus, Grafana, and Alertmanager. Live on AWS EC2.
