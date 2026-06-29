@@ -13,6 +13,9 @@ Docker · Kubernetes · k3s · k3d · Helm · ArgoCD
 **CI/CD & GitOps**
 GitHub Actions · GitOps · ArgoCD · Automated Testing
 
+**Configuration Management**
+Ansible · Infrastructure as Code
+
 **Monitoring & Observability**
 Prometheus · Grafana · Alertmanager · Node Exporter
 
@@ -26,24 +29,36 @@ Apache Airflow · PostgreSQL · ETL Pipelines
 
 ## 🚀 Portfolio Projects
 
+### [Portfolio Infrastructure](https://github.com/IvanLuketic2002/portfolio-infrastructure)
+Single Terraform project with reusable modules that provisions entire portfolio infrastructure. One command to spin up everything.
+**Stack:** Terraform · AWS EC2 · Elastic IP · Security Groups · S3
+
+---
+
 ### [Gitea Production Deployment](https://github.com/IvanLuketic2002/gitea-production)
 Self-hosted Git server deployed on Kubernetes (k3s) on AWS EC2. GitHub Actions automatically deploys the entire stack on every push.
 **Stack:** Gitea · Kubernetes · k3s · PostgreSQL · Prometheus · GitHub Actions · AWS EC2
-🌐 **Live:** http://3.123.2.206:30000
+🌐 **Live:** http://18.196.233.113:30000
 
 ---
 
 ### [Observability & Incident Response System](https://github.com/IvanLuketic2002/monitoring-stack)
 Production-grade monitoring stack with Prometheus, Grafana, and Alertmanager. Live on AWS EC2.
 **Stack:** Prometheus · Grafana · Alertmanager · Docker · AWS EC2
-🌐 **Live:** http://18.199.150.120:3000
+🌐 **Live:** http://3.123.209.133:3000
 
 ---
 
 ### [DevOps Internal Tooling Platform](https://github.com/IvanLuketic2002/devops-dashboard)
 Real-time infrastructure dashboard aggregating metrics from Prometheus into a single-pane-of-glass view.
 **Stack:** FastAPI · Python · Prometheus API · AWS EC2
-🌐 **Live:** http://18.199.150.120:8000
+🌐 **Live:** http://3.123.209.133:8000
+
+---
+
+### [Ansible Infrastructure Automation](https://github.com/IvanLuketic2002/ansible-automation)
+Infrastructure automation using Ansible to configure EC2 servers, deploy applications, and set up monitoring stacks. Demonstrates separation between Terraform (provisioning) and Ansible (configuration).
+**Stack:** Ansible · AWS EC2 · Docker · FastAPI · Prometheus
 
 ---
 
